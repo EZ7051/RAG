@@ -2,7 +2,7 @@ import redis
 
 class RedisCacheHandler:
     def __init__(self):
-        # Connect to Redis (replace with your actual connection details)
+        # Connect to Redis
         self.redis_client = redis.StrictRedis(host='localhost', port=6379, decode_responses=True)
 
     def get_cached_user_data(self, user_id):
