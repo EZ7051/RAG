@@ -2,7 +2,7 @@ import psycopg2
 
 class DatabaseHandler:
     def __init__(self):
-        # Connect to PostgreSQL (replace with your actual connection details)
+        # Connect to PostgreSQL
         self.conn = psycopg2.connect(
             host="localhost",
             database="your_database",
